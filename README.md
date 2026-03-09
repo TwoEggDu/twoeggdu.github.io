@@ -1,5 +1,7 @@
 # twoeggdu.github.io
 
+站点入口：[https://twoeggdu.github.io/](https://twoeggdu.github.io/)
+
 这是公开站点仓库，只放允许对外展示的内容。
 
 ## 当前结构
