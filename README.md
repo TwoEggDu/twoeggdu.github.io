@@ -12,6 +12,7 @@
 - `projects.md`：项目入口页
 - `_notes/`：公开笔记内容
 - `assets/`：公开静态资源
+- `EDITOR_GUIDE.md`：给编辑使用的内容编辑与发布手册
 
 ## 发布建议
 
