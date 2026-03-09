@@ -1,0 +1,24 @@
+title: twoeggs
+description: 两个孩子的爸爸的养育笔记与项目展示
+lang: zh-CN
+timezone: Asia/Shanghai
+url: https://twoeggdu.github.io
+baseurl: ""
+theme: minima
+markdown: kramdown
+
+header_pages:
+  - notes.md
+  - projects.md
+
+collections:
+  notes:
+    output: true
+    permalink: /notes/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: page

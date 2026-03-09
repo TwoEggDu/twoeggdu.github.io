@@ -1,0 +1,42 @@
+---
+---
+
+@import "minima";
+
+:root {
+  --site-accent: #6b4f3b;
+  --site-accent-soft: #efe4d6;
+  --site-text: #2f2721;
+  --site-rule: #d8c8b5;
+}
+
+body {
+  color: var(--site-text);
+}
+
+.site-header {
+  border-top: 6px solid var(--site-accent);
+  border-bottom: 1px solid var(--site-rule);
+}
+
+.site-title,
+.page-link,
+.post-link {
+  color: var(--site-accent) !important;
+}
+
+.page-content h2,
+.page-content h3,
+.page-content h4 {
+  color: var(--site-accent);
+}
+
+.page-content blockquote {
+  border-left-color: var(--site-accent);
+  background: var(--site-accent-soft);
+  padding: 0.75rem 1rem;
+}
+
+.page-content table th {
+  background: var(--site-accent-soft);
+}
