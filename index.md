@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: twoeggs
 permalink: /
@@ -6,7 +6,7 @@ permalink: /
 
 这是一个公开展示层，专门发布已经整理完成、适合对外展示的内容。
 
-## 这里会放什么
+## 这里会放什么？
 
 - **笔记**：围绕书籍、行为模型和家庭教育主题整理的长文内容
 - **项目**：面向外部展示的项目入口，例如 allweather
@@ -25,6 +25,7 @@ permalink: /
 - [查看项目页]({{ '/projects/' | relative_url }})
 - [家庭的觉醒]({{ '/notes/family-awakening/' | relative_url }})
 - [福格行为模型]({{ '/notes/fogg-behavior-model/' | relative_url }})
+- [孩子学习的关键阶段]({{ '/notes/education-stages/' | relative_url }})
 
 ## 当前发布原则
 
