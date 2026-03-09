@@ -15,7 +15,7 @@ permalink: /
 ## 最近整理
 
 {% assign notes = site.notes | sort: "order" %}
-{% for note in notes limit: 3 %}
+{% for note in notes limit: 4 %}
 - [{{ note.title }}]({{ note.url | relative_url }})：{{ note.summary }}
 {% endfor %}
 
@@ -23,9 +23,18 @@ permalink: /
 
 - [查看全部笔记]({{ '/notes/' | relative_url }})
 - [查看项目页]({{ '/projects/' | relative_url }})
-- [家庭的觉醒]({{ '/notes/family-awakening/' | relative_url }})
-- [福格行为模型]({{ '/notes/fogg-behavior-model/' | relative_url }})
-- [孩子学习的关键阶段]({{ '/notes/education-stages/' | relative_url }})
+
+## 笔记分类
+
+{% assign grouped_notes = site.notes | sort: "order" | group_by: "category" %}
+{% for group in grouped_notes %}
+### {{ group.name }}
+
+{% for note in group.items %}
+- [{{ note.title }}]({{ note.url | relative_url }})
+{% endfor %}
+
+{% endfor %}
 
 ## 当前发布原则
 
