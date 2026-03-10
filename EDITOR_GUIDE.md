@@ -1,4 +1,4 @@
-# 编辑手册
+﻿# 编辑手册
 
 这份文档给日常负责内容编辑的同事使用，目标是用最少的技术门槛完成两件事：
 
@@ -15,6 +15,7 @@
 - `assets/images/`：公开图片
 - `assets/files/`：公开附件，建议放 PDF 等可下载文件
 - `index.md`：首页
+- `docs.md`：文档入口页
 - `notes.md`：文章列表页
 - `projects.md`：项目页
 
@@ -278,10 +279,11 @@ assets/files/notes/family-awakening/source.pdf
 [查看《家庭的觉醒》]({{ '/notes/family-awakening/' | relative_url }})
 ```
 
-如果要链接到首页、笔记页、项目页：
+如果要链接到首页、文档页、笔记页、项目页：
 
 ```markdown
 [返回首页]({{ '/' | relative_url }})
+[查看文档页]({{ '/docs/' | relative_url }})
 [查看全部笔记]({{ '/notes/' | relative_url }})
 [查看项目页]({{ '/projects/' | relative_url }})
 ```
@@ -353,8 +355,9 @@ git push origin main
 发布后检查：
 
 1. 首页：[https://twoeggdu.github.io/](https://twoeggdu.github.io/)
-2. 笔记页：[https://twoeggdu.github.io/notes/](https://twoeggdu.github.io/notes/)
-3. 对应文章页，例如：
+2. 文档页：[https://twoeggdu.github.io/docs/](https://twoeggdu.github.io/docs/)
+3. 笔记页：[https://twoeggdu.github.io/notes/](https://twoeggdu.github.io/notes/)
+4. 对应文章页，例如：
    `https://twoeggdu.github.io/notes/family-awakening/`
 
 如果刚提交完还没更新，先等 1 到 5 分钟再刷新。
@@ -397,3 +400,5 @@ git push origin main
 4. 在文章里用 Markdown 链接引用它们
 5. 提交到 `main`
 6. 打开线上页面检查是否正常
+
+

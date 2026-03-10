@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: twoeggs
 permalink: /
@@ -21,6 +21,7 @@ permalink: /
 
 ## 入口
 
+- [查看文档入口页]({{ '/docs/' | relative_url }})
 - [查看全部笔记]({{ '/notes/' | relative_url }})
 - [查看项目页]({{ '/projects/' | relative_url }})
 
@@ -41,3 +42,4 @@ permalink: /
 - 原始图片、PDF、OCR 文本不直接公开
 - 只同步允许公开的 Markdown 和静态资源
 - 多个私有源仓库最终汇总到这个公开站点
+

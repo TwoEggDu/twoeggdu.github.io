@@ -1,13 +1,18 @@
-# twoeggdu.github.io
+﻿# twoeggdu.github.io
 
 站点入口：[https://twoeggdu.github.io/](https://twoeggdu.github.io/)
 
 这是公开站点仓库，只放允许对外展示的内容。
 
+## 编辑文档
+
+- [编辑手册](./EDITOR_GUIDE.md)
+
 ## 当前结构
 
 - `_config.yml`：Jekyll 配置
 - `index.md`：首页
+- `docs.md`：文档入口页
 - `notes.md`：笔记列表页
 - `projects.md`：项目入口页
 - `_notes/`：公开笔记内容

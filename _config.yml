@@ -1,4 +1,4 @@
-title: twoeggs
+﻿title: twoeggs
 description: 两个孩子的爸爸的养育笔记与项目展示
 lang: zh-CN
 timezone: Asia/Shanghai
@@ -8,6 +8,7 @@ theme: minima
 markdown: kramdown
 
 header_pages:
+  - docs.md
   - notes.md
   - projects.md
 
