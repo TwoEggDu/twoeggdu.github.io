@@ -24,13 +24,13 @@ guide_nav:
 <div class="guide-dashboard">
   <div class="guide-stat">
     <span class="guide-stat-label">已整理天数</span>
-    <span class="guide-stat-value">13 / 14</span>
-    <p class="guide-stat-note">目前已经补到第 1 到第 10 天，以及第 12 到第 14 天。</p>
+    <span class="guide-stat-value">14 / 14</span>
+    <p class="guide-stat-note">目前已经覆盖第 1 到第 14 天，其中第 13、14 天是按聊天顺序归位整理。</p>
   </div>
   <div class="guide-stat">
-    <span class="guide-stat-label">仍缺内容</span>
+    <span class="guide-stat-label">最新补充</span>
     <span class="guide-stat-value">第 11 天</span>
-    <p class="guide-stat-note">聊天里暂时还没有看到这一天的原始伴学文案。</p>
+    <p class="guide-stat-note">这一天的主题是作业辅导工具，重点是 AI 智能批改和作业过滤。</p>
   </div>
   <div class="guide-stat">
     <span class="guide-stat-label">阅读方式</span>
@@ -97,10 +97,10 @@ guide_nav:
     <h3>英语 AI</h3>
     <p>点读、背词、查字词、翻译和作文助手。</p>
   </div>
-  <div class="guide-day-card is-missing">
+  <div class="guide-day-card">
     <span class="guide-day-index">第 11 天</span>
-    <h3>暂时缺失</h3>
-    <p>目前聊天记录里还没有看到这一天的原文。</p>
+    <h3>作业辅导</h3>
+    <p>AI 智能批改助手加作业过滤，帮助孩子安排作业优先级。</p>
   </div>
   <div class="guide-day-card">
     <span class="guide-day-index">第 12 天</span>
@@ -121,13 +121,13 @@ guide_nav:
 
 ## 先说结论
 
-这份聊天记录仍然不是完整的 14 天伴学原文，但已经比之前更完整了。
+这份聊天记录现在已经覆盖了 14 天伴学的完整内容，但第 13、14 天仍然是按聊天顺序归位整理的。
 
-- 目前明确写出天数的有：`第 1、2、3、4、5、6、7、8、9、10、12 天`
+- 目前明确写出天数的有：`第 1、2、3、4、5、6、7、8、9、10、11、12 天`
 - 如果把两条未写天数、但明显属于伴学结尾阶段的消息也算进去，那么：
   - `金牌领学 + 计划广场` 大概率是 `第 13 天`
   - `设置功能 + 时间管理 + 问卷反馈` 大概率是 `第 14 天`
-- 按这个判断，目前最可能仍然缺少的是：`第 11 天`
+- 按这个判断，目前已经不缺天数了
 
 ## 14 天伴学内容速览
 
@@ -143,7 +143,7 @@ guide_nav:
 | 第 8 天 | 语文 AI 工具 | AI 作文批改、AI 听写、AI 背诵闯关、AI 课本点读 | <https://t.tal.com/EqCj5R> |
 | 第 9 天 | 数学 AI 工具 | AI 口算批改、AI 口算练习、AI 小思练习、随时问 | <https://t.tal.com/aEENsP> |
 | 第 10 天 | 英语 AI 工具 | 课本点读、背单词、查字词、AI 听写、指尖翻译、作文助手 | <https://t.tal.com/vAdsby> |
-| 第 11 天 | 缺失 | 聊天中未看到 | 无 |
+| 第 11 天 | 作业辅导工具 | AI 智能批改助手、作业过滤、高中低优先级排序 | <https://t.tal.com/K9Kx6D> |
 | 第 12 天 | 练习工具 | 多教材版本切换、分层难度练习、智能错题本 | <https://t.tal.com/Xd9l2n> |
 | 第 13 天 | 金牌领学与计划广场 | 直播领学、学习计划模板、AI 规划、日程提醒 | <https://t.tal.com/GQMDWQ><br><https://t.tal.com/AlQpTm> |
 | 第 14 天 | 设置功能与收尾反馈 | 设置功能、时间管理、14 天体验问卷 | <https://t.tal.com/xZ2StR><br><https://www.wjx.cn/vm/OlfGQbn.aspx> |
@@ -284,7 +284,21 @@ guide_nav:
 
 原始链接：<https://t.tal.com/vAdsby>
 
-## 九、练习功能支持版本切换和错题整理
+## 九、作业辅导工具适合做批改和作业排序
+
+第 11 天重点是 `作业辅导工具`。
+
+聊天里提到的功能包括：
+
+- `AI 智能批改助手`：拍一下、扫一下就能自动批改全学科作业
+- 自动定位错题并给出解析
+- `作业过滤`：把作业按高、中、低优先级列出来
+
+这部分更适合家长和孩子一起用，核心价值是少花时间在机械批改上，把时间留给真正不会的题。
+
+原始链接：<https://t.tal.com/K9Kx6D>
+
+## 十、练习功能支持版本切换和错题整理
 
 第 12 天重点介绍的是练习工具，聊天里提到的核心点有：
 
@@ -294,7 +308,7 @@ guide_nav:
 
 原始链接：<https://t.tal.com/Xd9l2n>
 
-## 十、如果孩子需要被带着学，可以看金牌领学和计划广场
+## 十一、如果孩子需要被带着学，可以看金牌领学和计划广场
 
 聊天后段提到两块内容：
 
@@ -306,7 +320,7 @@ guide_nav:
 - 金牌领学：<https://t.tal.com/GQMDWQ>
 - 制定计划操作视频：<https://t.tal.com/AlQpTm>
 
-## 十一、最后阶段重点是设置和时间管理
+## 十二、最后阶段重点是设置和时间管理
 
 在伴学收尾阶段，聊天中重点提醒的是：
 
@@ -373,6 +387,7 @@ guide_nav:
 - 绘本查询：<https://operation.51wanxue.com/picturebook-m/#/bookshop?appCode=29948064-7C58-455F-AD95-ED280184CAE>
 - 第 9 天数学 AI：<https://t.tal.com/aEENsP>
 - 第 10 天英语 AI：<https://t.tal.com/vAdsby>
+- 第 11 天作业辅导工具：<https://t.tal.com/K9Kx6D>
 - 第 12 天练习工具：<https://t.tal.com/Xd9l2n>
 - 金牌领学：<https://t.tal.com/GQMDWQ>
 - 计划广场操作视频：<https://t.tal.com/AlQpTm>
@@ -383,4 +398,4 @@ guide_nav:
 
 如果只按这段聊天来理解，这台学习机最核心的使用路径可以简化成一句话：
 
-`家长先用亲子 App 管好设备 -> 孩子在学习机里用启蒙屏、探索屏、阅读屏和核心课程 -> 再按语数英分别使用 AI 工具 -> 最后用激励、计划和时间管理把节奏稳定下来。`
+`家长先用亲子 App 管好设备 -> 孩子在学习机里用启蒙屏、探索屏、阅读屏和核心课程 -> 再按语数英和作业辅导工具分别使用 AI 功能 -> 最后用激励、计划和时间管理把节奏稳定下来。`
