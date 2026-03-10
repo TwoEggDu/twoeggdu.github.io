@@ -2,36 +2,26 @@
 layout: default
 ---
 <div class="guide-page">
-  <div class="wrapper guide-shell">
-    <aside class="guide-sidebar">
-      <div class="guide-panel">
-        <p class="guide-panel-kicker">快速导航</p>
-        <ul class="guide-nav">
-          {% for item in page.guide_nav %}
-          <li><a href="{{ item.href }}">{{ item.label }}</a></li>
-          {% endfor %}
-        </ul>
-        <div class="guide-side-note">
-          <strong>阅读方式</strong>
-          <p>桌面端是左侧导航加右侧宽屏正文，手机端会自动切回单栏。</p>
-        </div>
-      </div>
-    </aside>
-
-    <article class="post guide-main">
-      <header class="guide-hero">
+  <div class="guide-shell wrapper">
+    <header class="guide-header">
+      <div class="guide-header-copy">
         {% if page.category %}
         <p class="guide-kicker">{{ page.category }}</p>
         {% endif %}
-        <h1 class="post-title">{{ page.title | escape }}</h1>
+        <h1 class="guide-title">{{ page.title | escape }}</h1>
         {% if page.summary %}
         <p class="guide-summary">{{ page.summary }}</p>
         {% endif %}
-      </header>
-
-      <div class="post-content guide-content">
-        {{ content }}
       </div>
-    </article>
+      <nav class="guide-topnav" aria-label="快速导航">
+        {% for item in page.guide_nav %}
+        <a class="guide-topnav-link" href="{{ item.href }}">{{ item.label }}</a>
+        {% endfor %}
+      </nav>
+    </header>
+
+    <main class="guide-body">
+      {{ content }}
+    </main>
   </div>
 </div>
