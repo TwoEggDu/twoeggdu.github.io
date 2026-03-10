@@ -19,6 +19,10 @@ permalink: /
 - [{{ note.title }}]({{ note.url | relative_url }})：{{ note.summary }}
 {% endfor %}
 
+## 学习机指南
+
+- [学而思学习机使用指南]({{ '/notes/xueersi-learning-machine-14-day-summary/' | relative_url }})：按 14 天伴学聊天整理的功能入口、缺失天数和原始链接汇总
+
 ## 入口
 
 - [查看文档入口页]({{ '/docs/' | relative_url }})
@@ -42,4 +46,3 @@ permalink: /
 - 原始图片、PDF、OCR 文本不直接公开
 - 只同步允许公开的 Markdown 和静态资源
 - 多个私有源仓库最终汇总到这个公开站点
-
