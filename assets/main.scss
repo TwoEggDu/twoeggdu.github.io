@@ -57,15 +57,6 @@ body {
   max-width: 1600px;
 }
 
-.guide-header {
-  border: 1px solid rgba(107, 79, 59, 0.14);
-  border-radius: 30px;
-  background: linear-gradient(135deg, #fffdf9 0%, #f0e4d6 100%);
-  box-shadow: var(--guide-shadow);
-  padding: 2.1rem 2.3rem 1.7rem;
-}
-
-.guide-kicker,
 .guide-card-kicker,
 .guide-link-kicker,
 .guide-day-index,
@@ -76,26 +67,12 @@ body {
   color: #866753;
 }
 
-.guide-title {
-  margin: 0.25rem 0 0.7rem;
-  font-size: clamp(2rem, 2.8vw, 3.1rem);
-  line-height: 1.12;
-  color: #3b2a1e;
-}
-
-.guide-summary {
-  max-width: 72ch;
-  margin: 0;
-  font-size: 1.02rem;
-  line-height: 1.75;
-}
-
 .guide-body {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: minmax(1180px, 88vw);
   gap: 1.35rem;
-  margin-top: 1.35rem;
+  margin-top: 0;
   overflow-x: auto;
   overflow-y: hidden;
   padding-bottom: 0.5rem;
@@ -337,7 +314,6 @@ body {
 }
 
 @media screen and (max-width: 980px) {
-  .guide-header,
   .guide-section {
     padding: 1.2rem;
   }
@@ -369,10 +345,6 @@ body {
 @media screen and (max-width: 640px) {
   .guide-page {
     padding-top: 0.75rem;
-  }
-
-  .guide-title {
-    font-size: 1.8rem;
   }
 
   .guide-day-board {

@@ -3,18 +3,6 @@ layout: default
 ---
 <div class="guide-page">
   <div class="guide-shell wrapper">
-    <header class="guide-header">
-      <div class="guide-header-copy">
-        {% if page.category %}
-        <p class="guide-kicker">{{ page.category }}</p>
-        {% endif %}
-        <h1 class="guide-title">{{ page.title | escape }}</h1>
-        {% if page.summary %}
-        <p class="guide-summary">{{ page.summary }}</p>
-        {% endif %}
-      </div>
-    </header>
-
     <main class="guide-body">
       {{ content }}
     </main>
