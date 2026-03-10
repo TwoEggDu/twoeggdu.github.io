@@ -17,9 +17,7 @@ guide_nav:
     href: "#sources"
 ---
 
-<span class="guide-anchor" id="overview"></span>
-
-<section class="guide-section">
+<section class="guide-section" id="overview">
   <div class="guide-section-head">
     <div>
       <h2>当前判断</h2>
@@ -56,9 +54,7 @@ guide_nav:
   </div>
 </section>
 
-<span class="guide-anchor" id="days"></span>
-
-<section class="guide-section">
+<section class="guide-section" id="days">
   <div class="guide-section-head">
     <div>
       <h2>14 天总览</h2>
@@ -215,9 +211,7 @@ guide_nav:
   </div>
 </section>
 
-<span class="guide-anchor" id="guide"></span>
-
-<section class="guide-section">
+<section class="guide-section" id="guide">
   <div class="guide-section-head">
     <div>
       <h2>按功能使用</h2>
@@ -359,9 +353,7 @@ guide_nav:
   </div>
 </section>
 
-<span class="guide-anchor" id="extras"></span>
-
-<section class="guide-section">
+<section class="guide-section" id="extras">
   <div class="guide-section-head">
     <div>
       <h2>补充问题</h2>
@@ -393,9 +385,7 @@ guide_nav:
   </div>
 </section>
 
-<span class="guide-anchor" id="sources"></span>
-
-<section class="guide-section">
+<section class="guide-section" id="sources">
   <div class="guide-section-head">
     <div>
       <h2>原始链接库</h2>

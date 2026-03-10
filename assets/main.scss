@@ -116,10 +116,32 @@ body {
   background: var(--site-accent-soft);
 }
 
+.guide-mode-note {
+  margin: 1rem 0 0;
+  color: #6b5a4d;
+  font-size: 0.95rem;
+}
+
 .guide-body {
   display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(1180px, 88vw);
   gap: 1.35rem;
   margin-top: 1.35rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 0.5rem;
+  scroll-snap-type: x mandatory;
+  align-items: stretch;
+}
+
+.guide-body::-webkit-scrollbar {
+  height: 12px;
+}
+
+.guide-body::-webkit-scrollbar-thumb {
+  background: rgba(107, 79, 59, 0.25);
+  border-radius: 999px;
 }
 
 .guide-section {
@@ -128,6 +150,18 @@ body {
   background: var(--guide-panel);
   box-shadow: var(--guide-shadow);
   padding: 1.55rem;
+  scroll-snap-align: start;
+  height: min(78vh, 860px);
+  overflow: auto;
+}
+
+.guide-section::-webkit-scrollbar {
+  width: 10px;
+}
+
+.guide-section::-webkit-scrollbar-thumb {
+  background: rgba(107, 79, 59, 0.16);
+  border-radius: 999px;
 }
 
 .guide-section-head {
@@ -324,10 +358,7 @@ body {
 }
 
 .guide-anchor {
-  display: block;
-  position: relative;
-  top: -1rem;
-  visibility: hidden;
+  display: none;
 }
 
 @media screen and (max-width: 1480px) {
@@ -337,6 +368,10 @@ body {
 }
 
 @media screen and (max-width: 1240px) {
+  .guide-body {
+    grid-auto-columns: minmax(1040px, 94vw);
+  }
+
   .guide-overview-grid,
   .guide-support-grid,
   .guide-links-grid {
@@ -352,6 +387,19 @@ body {
   .guide-header,
   .guide-section {
     padding: 1.2rem;
+  }
+
+  .guide-body {
+    grid-auto-flow: row;
+    grid-auto-columns: unset;
+    overflow-x: visible;
+    overflow-y: visible;
+    scroll-snap-type: none;
+  }
+
+  .guide-section {
+    height: auto;
+    overflow: visible;
   }
 
   .guide-module-grid,
