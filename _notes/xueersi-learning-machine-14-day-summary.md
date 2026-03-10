@@ -1,11 +1,123 @@
 ---
 title: 学而思学习机使用指南：14 天伴学聊天整理
+layout: learning-guide
 category: 学习机
 summary: 按聊天记录整理学而思学习机 14 天伴学内容，并保留原始教程链接与绘本查询链接。
 order: 5
+guide_nav:
+  - label: 先看结论
+    href: "#overview"
+  - label: 14 天速览
+    href: "#days"
+  - label: 使用教程
+    href: "#guide"
+  - label: 补充问题
+    href: "#extras"
+  - label: 原始链接
+    href: "#sources"
 ---
 
+<span class="guide-anchor" id="overview"></span>
+
 > 这篇文章根据一段家长与客服的聊天记录整理而成，只总结聊天中实际出现过的功能、入口和链接，不额外补写聊天里没有出现的教程内容。
+
+<div class="guide-dashboard">
+  <div class="guide-stat">
+    <span class="guide-stat-label">已整理天数</span>
+    <span class="guide-stat-value">13 / 14</span>
+    <p class="guide-stat-note">目前已经补到第 1 到第 10 天，以及第 12 到第 14 天。</p>
+  </div>
+  <div class="guide-stat">
+    <span class="guide-stat-label">仍缺内容</span>
+    <span class="guide-stat-value">第 11 天</span>
+    <p class="guide-stat-note">聊天里暂时还没有看到这一天的原始伴学文案。</p>
+  </div>
+  <div class="guide-stat">
+    <span class="guide-stat-label">阅读方式</span>
+    <span class="guide-stat-value">横向看板</span>
+    <p class="guide-stat-note">先横着扫 14 天卡片，再往下看详细教程和完整链接。</p>
+  </div>
+  <div class="guide-stat">
+    <span class="guide-stat-label">保留内容</span>
+    <span class="guide-stat-value">原始链接</span>
+    <p class="guide-stat-note">教程短链、绘本查询链接和问卷链接都继续保留。</p>
+  </div>
+</div>
+
+<span class="guide-anchor" id="days"></span>
+
+<div class="guide-day-rail">
+  <div class="guide-day-card">
+    <span class="guide-day-index">第 1 天</span>
+    <h3>亲子 App</h3>
+    <p>家长端、远程管控、学习进度和互动入口。</p>
+  </div>
+  <div class="guide-day-card">
+    <span class="guide-day-index">第 2 天</span>
+    <h3>启蒙屏</h3>
+    <p>闯关、古诗、英语互动，偏轻量启蒙。</p>
+  </div>
+  <div class="guide-day-card">
+    <span class="guide-day-index">第 3 天</span>
+    <h3>探索屏</h3>
+    <p>诗词、益智、素养世界，以及优选专区。</p>
+  </div>
+  <div class="guide-day-card">
+    <span class="guide-day-index">第 4 天</span>
+    <h3>阅读屏</h3>
+    <p>分级阅读、书架、阅读成长报告和圈圈学。</p>
+  </div>
+  <div class="guide-day-card">
+    <span class="guide-day-index">第 5 天</span>
+    <h3>激励系统</h3>
+    <p>星光值、宝盒、金币、角色装扮和勋章。</p>
+  </div>
+  <div class="guide-day-card">
+    <span class="guide-day-index">第 6 天</span>
+    <h3>小思 AI</h3>
+    <p>先开语音助手，再用唤醒词做问答和辅导。</p>
+  </div>
+  <div class="guide-day-card">
+    <span class="guide-day-index">第 7 天</span>
+    <h3>核心课程</h3>
+    <p>同步精讲精练、专项课、拔尖课和精准学。</p>
+  </div>
+  <div class="guide-day-card">
+    <span class="guide-day-index">第 8 天</span>
+    <h3>语文 AI</h3>
+    <p>作文批改、听写、背诵闯关和课本点读。</p>
+  </div>
+  <div class="guide-day-card">
+    <span class="guide-day-index">第 9 天</span>
+    <h3>数学 AI</h3>
+    <p>口算批改、口算练习、小思练习和随时问。</p>
+  </div>
+  <div class="guide-day-card">
+    <span class="guide-day-index">第 10 天</span>
+    <h3>英语 AI</h3>
+    <p>点读、背词、查字词、翻译和作文助手。</p>
+  </div>
+  <div class="guide-day-card is-missing">
+    <span class="guide-day-index">第 11 天</span>
+    <h3>暂时缺失</h3>
+    <p>目前聊天记录里还没有看到这一天的原文。</p>
+  </div>
+  <div class="guide-day-card">
+    <span class="guide-day-index">第 12 天</span>
+    <h3>练习工具</h3>
+    <p>多版本切换、分层练习和智能错题本。</p>
+  </div>
+  <div class="guide-day-card is-estimated">
+    <span class="guide-day-index">第 13 天</span>
+    <h3>金牌领学</h3>
+    <p>直播领学、计划广场、AI 学习计划和提醒。</p>
+  </div>
+  <div class="guide-day-card is-estimated">
+    <span class="guide-day-index">第 14 天</span>
+    <h3>设置收尾</h3>
+    <p>设置功能、时间管理和 14 天体验问卷。</p>
+  </div>
+</div>
 
 ## 先说结论
 
@@ -35,6 +147,8 @@ order: 5
 | 第 12 天 | 练习工具 | 多教材版本切换、分层难度练习、智能错题本 | <https://t.tal.com/Xd9l2n> |
 | 第 13 天 | 金牌领学与计划广场 | 直播领学、学习计划模板、AI 规划、日程提醒 | <https://t.tal.com/GQMDWQ><br><https://t.tal.com/AlQpTm> |
 | 第 14 天 | 设置功能与收尾反馈 | 设置功能、时间管理、14 天体验问卷 | <https://t.tal.com/xZ2StR><br><https://www.wjx.cn/vm/OlfGQbn.aspx> |
+
+<span class="guide-anchor" id="guide"></span>
 
 ## 按功能整理后的使用教程
 
@@ -205,6 +319,8 @@ order: 5
 - 设置功能视频：<https://t.tal.com/xZ2StR>
 - 问卷反馈：<https://www.wjx.cn/vm/OlfGQbn.aspx>
 
+<span class="guide-anchor" id="extras"></span>
+
 ## 单独补充的几个重点问题
 
 ## 一、延保
@@ -239,6 +355,8 @@ order: 5
 - 把学校所在地设置为 `上海`
 - 可解锁 `真题周周练`、`语文晨读`、`本地学伴` 等本地学内容
 
+<span class="guide-anchor" id="sources"></span>
+
 ## 原始链接汇总
 
 为了方便后续继续核对，这里把聊天中出现过的原始链接统一保留：
@@ -266,4 +384,3 @@ order: 5
 如果只按这段聊天来理解，这台学习机最核心的使用路径可以简化成一句话：
 
 `家长先用亲子 App 管好设备 -> 孩子在学习机里用启蒙屏、探索屏、阅读屏和核心课程 -> 再按语数英分别使用 AI 工具 -> 最后用激励、计划和时间管理把节奏稳定下来。`
-
