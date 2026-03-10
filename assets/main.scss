@@ -90,38 +90,6 @@ body {
   line-height: 1.75;
 }
 
-.guide-topnav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-top: 1.35rem;
-}
-
-.guide-topnav-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 2.75rem;
-  padding: 0 1rem;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.88);
-  border: 1px solid rgba(107, 79, 59, 0.14);
-  color: var(--site-text);
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.guide-topnav-link:hover {
-  text-decoration: none;
-  background: var(--site-accent-soft);
-}
-
-.guide-mode-note {
-  margin: 1rem 0 0;
-  color: #6b5a4d;
-  font-size: 0.95rem;
-}
-
 .guide-body {
   display: grid;
   grid-auto-flow: column;
@@ -190,7 +158,16 @@ body {
   line-height: 1.7;
 }
 
-.guide-overview-grid,
+.guide-intro {
+  display: grid;
+  align-content: start;
+  gap: 1rem;
+}
+
+.guide-note-hero {
+  font-size: 1.04rem;
+}
+
 .guide-module-grid,
 .guide-support-grid,
 .guide-links-grid {
@@ -198,11 +175,6 @@ body {
   gap: 1rem;
 }
 
-.guide-overview-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.guide-stat-card,
 .guide-module-card,
 .guide-support-card,
 .guide-links-card {
@@ -212,20 +184,6 @@ body {
   padding: 1rem 1.05rem 1.1rem;
 }
 
-.guide-stat-card {
-  background: linear-gradient(180deg, #fffdf9 0%, #f4ebde 100%);
-  min-height: 10rem;
-}
-
-.guide-stat-value {
-  display: block;
-  margin-top: 0.35rem;
-  color: var(--site-accent);
-  font-size: 1.4rem;
-  font-weight: 700;
-}
-
-.guide-stat-card p,
 .guide-module-card p,
 .guide-support-card p,
 .guide-links-card p {
@@ -357,10 +315,6 @@ body {
   line-height: 1.75;
 }
 
-.guide-anchor {
-  display: none;
-}
-
 @media screen and (max-width: 1480px) {
   .guide-day-board {
     grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -372,7 +326,6 @@ body {
     grid-auto-columns: minmax(1040px, 94vw);
   }
 
-  .guide-overview-grid,
   .guide-support-grid,
   .guide-links-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -403,7 +356,6 @@ body {
   }
 
   .guide-module-grid,
-  .guide-overview-grid,
   .guide-support-grid,
   .guide-links-grid {
     grid-template-columns: 1fr;

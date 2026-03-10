@@ -4,51 +4,15 @@ layout: learning-guide
 category: 学习机
 summary: 把 14 天伴学内容改成桌面优先的横版信息页，按天、按功能、按原始链接三种方式查看。
 order: 5
-guide_nav:
-  - label: 当前判断
-    href: "#overview"
-  - label: 14 天总览
-    href: "#days"
-  - label: 功能卡片
-    href: "#guide"
-  - label: 补充问题
-    href: "#extras"
-  - label: 链接库
-    href: "#sources"
 ---
 
-<section class="guide-section" id="overview">
-  <div class="guide-section-head">
-    <div>
-      <h2>当前判断</h2>
-      <p>这篇整理来自你发来的 14 天伴学聊天记录，已经覆盖第 1 到第 14 天。第 13、14 天仍然是按聊天顺序归位整理，但内容本身已经齐了。</p>
-    </div>
+<section class="guide-section guide-intro" id="overview">
+  <div class="guide-note guide-note-hero">
+    <strong>当前判断：</strong>
+    这篇整理已经覆盖第 1 到第 14 天内容，第 13、14 天仍然是按聊天顺序归位整理，但内容本身已经齐了。
   </div>
 
-  <div class="guide-overview-grid">
-    <article class="guide-stat-card">
-      <span class="guide-card-kicker">覆盖天数</span>
-      <span class="guide-stat-value">14 / 14</span>
-      <p>目前已经不缺天数，第 11 天也已经补进来了。</p>
-    </article>
-    <article class="guide-stat-card">
-      <span class="guide-card-kicker">最新补充</span>
-      <span class="guide-stat-value">作业辅导</span>
-      <p>第 11 天重点是 AI 智能批改助手和作业过滤。</p>
-    </article>
-    <article class="guide-stat-card">
-      <span class="guide-card-kicker">阅读方式</span>
-      <span class="guide-stat-value">横版面板</span>
-      <p>先横着扫 14 天，再按功能看卡片，最后统一查链接。</p>
-    </article>
-    <article class="guide-stat-card">
-      <span class="guide-card-kicker">保留内容</span>
-      <span class="guide-stat-value">原始链接</span>
-      <p>教程短链、绘本查询、问卷和评价链接都保留了。</p>
-    </article>
-  </div>
-
-  <div class="guide-note">
+  <div class="guide-footer-note">
     <strong>一句话总览：</strong>
     家长先用亲子 App 管设备和设置，再让孩子按启蒙、探索、阅读、核心课程和语数英 AI 工具去学，最后用作业辅导、练习工具、激励系统、计划广场和时间管理把节奏稳定下来。
   </div>

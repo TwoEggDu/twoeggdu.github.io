@@ -13,12 +13,6 @@ layout: default
         <p class="guide-summary">{{ page.summary }}</p>
         {% endif %}
       </div>
-      <nav class="guide-topnav" aria-label="快速导航">
-        {% for item in page.guide_nav %}
-        <a class="guide-topnav-link" href="{{ item.href }}">{{ item.label }}</a>
-        {% endfor %}
-      </nav>
-      <p class="guide-mode-note">桌面端请左右滑动查看各块内容，手机端会自动切回纵向。</p>
     </header>
 
     <main class="guide-body">
