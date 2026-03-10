@@ -1,4 +1,4 @@
-﻿# 编辑手册
+# 编辑手册
 
 这份文档给日常负责内容编辑的同事使用，目标是用最少的技术门槛完成两件事：
 
@@ -86,6 +86,46 @@ order: 4
 
 - 新文章的 `order` 不要和现有文章重复
 - 如果只是普通文章，不需要写 `layout`，仓库已经默认配置好了
+
+## 文件编码：非常重要
+
+`githubio/` 里的 Jekyll 文件必须保存为 `UTF-8 无 BOM`。
+
+重点包括：
+
+- `_notes/*.md`
+- `index.md`
+- `docs.md`
+- `notes.md`
+- `projects.md`
+- `_config.yml`
+
+原因是：如果这些文件带了 `BOM`，GitHub Pages / Jekyll 可能会错误识别 front matter，导致页面不生成、入口不显示，或者文章地址直接 `404`。
+
+### 在 Windows 下要特别注意
+
+如果你是用 PowerShell 或某些编辑器保存 Markdown，可能会不小心写成 `UTF-8 with BOM`。
+
+遇到这种情况，线上常见表现是：
+
+- 仓库里明明有文件
+- 本地看内容也正常
+- 但线上文章页是 `404`
+- 或首页、文档页的新入口不出现
+
+### 建议做法
+
+- 编辑器里明确选择 `UTF-8`，不要选 `UTF-8 with BOM`
+- 如果是脚本写文件，优先使用 `UTF-8 without BOM`
+- 改完后如果页面异常，第一时间先检查编码
+
+PowerShell 更稳的写法：
+
+```powershell
+$enc = New-Object System.Text.UTF8Encoding($false)
+$text = [System.IO.File]::ReadAllText("path-to-file.md")
+[System.IO.File]::WriteAllText("path-to-file.md", $text, $enc)
+```
 
 ## 排版规范
 
@@ -349,6 +389,7 @@ git push origin main
 4. PDF 或附件链接是否能打开
 5. 是否误传了不该公开的素材
 6. 新文章是否能在 `/notes/` 页面看到
+7. 新改过的 Markdown / YAML 是否还是 `UTF-8 无 BOM`
 
 ## 发布后怎么验收
 
@@ -371,6 +412,7 @@ git push origin main
 - 文件是不是放在 `_notes/` 下
 - 文件头部有没有 `title`、`category`、`summary`、`order`
 - 文件是不是 `.md`
+- 文件编码是不是 `UTF-8 无 BOM`
 
 ### 为什么文章地址不对？
 
@@ -381,6 +423,16 @@ git push origin main
 - 文件名是 `family-awakening.md`
 - 地址就是 `/notes/family-awakening/`
 
+### 为什么文章地址会 404，但仓库里明明有文件？
+
+优先检查：
+
+- 文件名是否正确
+- 文件是否真的推送到了 `main`
+- 文件开头有没有正常的 `---`
+- 文件编码是不是 `UTF-8 无 BOM`
+
+如果文件前面有 `BOM`，Jekyll 可能识别不到 front matter，结果就是页面不生成。
 ### 为什么图片不显示？
 
 优先检查：
