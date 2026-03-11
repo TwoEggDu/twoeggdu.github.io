@@ -10,7 +10,6 @@ permalink: /
 
 - [文档页]({{ '/docs/' | relative_url }})：从一个页面浏览主要公开内容。
 - [全部笔记]({{ '/notes/' | relative_url }})：按主题查看已经公开的文章。
-- [项目页]({{ '/projects/' | relative_url }})：查看对外展示的项目入口。
 
 ## 精选内容
 
