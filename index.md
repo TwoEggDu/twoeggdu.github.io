@@ -29,7 +29,3 @@ permalink: /
 - `心理`：[NPD 是什么？它会怎样影响家人和孩子]({{ '/notes/npd-guide/' | relative_url }})
 - `模型`：[福格行为模型]({{ '/notes/fogg-behavior-model/' | relative_url }})
 - `书籍`：[家庭的觉醒]({{ '/notes/family-awakening/' | relative_url }})
-
-## 说明
-
-这里只放已经整理好的 Markdown 内容。原始图片、OCR 文本、未筛选资料不会直接公开。
