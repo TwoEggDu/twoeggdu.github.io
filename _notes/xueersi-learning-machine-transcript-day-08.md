@@ -2,6 +2,7 @@
 title: 学而思学习机第 8 天：语文 AI 工具
 category: 学习机讲解
 summary: 整理语文 AI 工具的四个核心功能：作文、听写、背诵和课本点读。
+listed: false
 order: 608
 ---
 

@@ -2,6 +2,7 @@
 title: 学而思学习机第 10 天：英语 AI 工具
 category: 学习机讲解
 summary: 整理英语工具：点读、背词、查词、翻译、听写和作文辅助。
+listed: false
 order: 610
 ---
 

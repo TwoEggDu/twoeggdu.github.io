@@ -4,15 +4,16 @@ title: 文档
 permalink: /docs/
 ---
 
-这里集中展示站点内所有公开文档的入口，适合作为统一浏览页。
+这里集中展示站点内主要公开文档的入口。
 
-{% assign notes = site.notes | sort: "order" %}
+{% assign notes = site.notes | where_exp: "note", "note.listed != false" | sort: "order" %}
 {% assign grouped_notes = notes | group_by: "category" %}
 
 ## 快速入口
 
 - [首页]({{ '/' | relative_url }})：查看站点总览
-- [学而思学习机使用指南]({{ '/notes/xueersi-learning-machine-14-day-summary/' | relative_url }})：查看 14 天伴学聊天整理版教程
+- [学而思学习机使用指南]({{ '/notes/xueersi-learning-machine-14-day-summary/' | relative_url }})：查看 14 天伴学的完整整理版
+- [14 天伴学视频整理目录]({{ '/notes/xueersi-learning-machine-14-day-transcript/' | relative_url }})：按天查看学习机讲解
 - [全部笔记]({{ '/notes/' | relative_url }})：按分类浏览全部公开笔记
 - [项目页]({{ '/projects/' | relative_url }})：查看对外展示的项目入口
 

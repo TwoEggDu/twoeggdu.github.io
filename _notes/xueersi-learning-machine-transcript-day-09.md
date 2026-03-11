@@ -2,6 +2,7 @@
 title: 学而思学习机第 9 天：数学 AI 工具
 category: 学习机讲解
 summary: 整理数学 AI 工具的重点功能：口算练习、批改、小思练习和随时问。
+listed: false
 order: 609
 ---
 

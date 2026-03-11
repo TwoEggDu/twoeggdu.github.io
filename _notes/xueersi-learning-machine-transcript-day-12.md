@@ -2,6 +2,7 @@
 title: 学而思学习机第 12 天：练习工具
 category: 学习机讲解
 summary: 整理练习工具的使用逻辑：版本切换、难度分层和错题管理。
+listed: false
 order: 612
 ---
 

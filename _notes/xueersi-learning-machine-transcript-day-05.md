@@ -2,6 +2,7 @@
 title: 学而思学习机第 5 天：激励系统
 category: 学习机讲解
 summary: 整理学习机里的激励机制，包括星光值、宝盒、金币和勋章。
+listed: false
 order: 605
 ---
 

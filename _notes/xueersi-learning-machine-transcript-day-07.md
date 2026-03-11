@@ -2,6 +2,7 @@
 title: 学而思学习机第 7 天：核心课程与精准学
 category: 学习机讲解
 summary: 整理同步课程、专项课、体系课和精准学的搭配方法。
+listed: false
 order: 607
 ---
 

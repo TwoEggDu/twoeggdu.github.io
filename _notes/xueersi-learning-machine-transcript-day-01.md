@@ -2,6 +2,7 @@
 title: 学而思学习机第 1 天：学而思亲子 App
 category: 学习机讲解
 summary: 整理家长端的核心功能：远程伴学、应用管理、功能管控、学习周报和家庭管理。
+listed: false
 order: 601
 ---
 

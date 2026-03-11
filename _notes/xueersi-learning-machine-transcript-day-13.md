@@ -2,6 +2,7 @@
 title: 学而思学习机第 13 天：金牌领学与计划广场
 category: 学习机讲解
 summary: 整理第 13 天两条视频内容：直播领学和计划广场。
+listed: false
 order: 613
 ---
 

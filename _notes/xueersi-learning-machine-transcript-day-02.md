@@ -2,6 +2,7 @@
 title: 学而思学习机第 2 天：启蒙屏
 category: 学习机讲解
 summary: 整理启蒙屏的主要内容：思维训练、表达启蒙、英语口语启蒙和低龄兴趣培养。
+listed: false
 order: 602
 ---
 

@@ -2,6 +2,7 @@
 title: 学而思学习机第 14 天：设置功能与时间管理
 category: 学习机讲解
 summary: 整理设置模块、设备信息、系统更新、护眼模式和时间管理。
+listed: false
 order: 614
 ---
 

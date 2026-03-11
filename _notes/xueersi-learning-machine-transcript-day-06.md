@@ -2,6 +2,7 @@
 title: 学而思学习机第 6 天：小思 AI
 category: 学习机讲解
 summary: 整理小思 AI 的开启流程、语音唤醒方式和常见使用场景。
+listed: false
 order: 606
 ---
 

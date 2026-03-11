@@ -2,6 +2,7 @@
 title: 学而思学习机第 3 天：探索屏与优选专区
 category: 学习机讲解
 summary: 整理探索屏和优选专区的用法，适合做兴趣拓展、素养积累和学习工具补充。
+listed: false
 order: 603
 ---
 
