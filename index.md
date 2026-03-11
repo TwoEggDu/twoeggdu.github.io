@@ -23,6 +23,10 @@ permalink: /
 
 - [学而思学习机使用指南]({{ '/notes/xueersi-learning-machine-14-day-summary/' | relative_url }})：按 14 天伴学聊天整理的功能入口、缺失天数和原始链接汇总
 
+## 心理专题
+
+- [NPD 是什么？它会怎样影响家人和孩子]({{ '/notes/npd-guide/' | relative_url }})：了解自恋型人格障碍的核心特征、家庭影响、孩子风险与识别方法。
+
 ## 入口
 
 - [查看文档入口页]({{ '/docs/' | relative_url }})
