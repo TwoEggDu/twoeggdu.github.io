@@ -7,7 +7,7 @@ order: 5
 
 > 根据聊天记录整理，保留原始教程链接和绘本查询链接。第 13、14 天是按聊天顺序归位整理。
 
-> 延伸阅读：如果你想看老师在视频里是怎么一步一步讲解的，可以打开[14 天伴学视频转写目录（共 14 份）]({{ '/notes/xueersi-learning-machine-14-day-transcript/' | relative_url }})。
+> 延伸阅读：如果你想看老师在视频里是怎么一步一步讲解的，可以打开[14 天伴学视频整理目录（共 14 份）]({{ '/notes/xueersi-learning-machine-14-day-transcript/' | relative_url }})。
 
 ## 14 天总览
 
