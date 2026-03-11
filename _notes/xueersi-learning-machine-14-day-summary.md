@@ -24,7 +24,6 @@ order: 5
 4. 第 4 天：阅读屏与圈圈学
    分级阅读、书架、阅读成长报告，阅读中长按可用圈圈学。
    链接：[阅读教程](https://t.tal.com/kK1Hyy)
-   链接：[专属客服评价](https://doc.weixin.qq.com/forms/ANoAZQciADcARYA_wb4AOUMarQlvR2Q7f)
 
 5. 第 5 天：激励系统
    星光值、宝盒、金币、角色装扮和勋章。
@@ -64,9 +63,8 @@ order: 5
     链接：[计划广场](https://t.tal.com/AlQpTm)
 
 14. 第 14 天：设置功能与收尾反馈
-    设置功能、时间管理，以及 14 天体验问卷。
+    设置功能与时间管理。
     链接：[设置功能视频](https://t.tal.com/xZ2StR)
-    链接：[14 天问卷](https://www.wjx.cn/vm/OlfGQbn.aspx)
 
 ## 按功能看
 
@@ -144,7 +142,6 @@ order: 5
 - 第 2 天启蒙屏：[https://t.tal.com/RtmQaC](https://t.tal.com/RtmQaC)
 - 第 3 天探索屏与优选专区：[https://t.tal.com/jZa4c5](https://t.tal.com/jZa4c5)
 - 第 4 天阅读屏：[https://t.tal.com/kK1Hyy](https://t.tal.com/kK1Hyy)
-- 第 4 天专属客服评价：[https://doc.weixin.qq.com/forms/ANoAZQciADcARYA_wb4AOUMarQlvR2Q7f](https://doc.weixin.qq.com/forms/ANoAZQciADcARYA_wb4AOUMarQlvR2Q7f)
 - 第 5 天激励系统：[https://t.tal.com/Wxf9JX](https://t.tal.com/Wxf9JX)
 - 第 6 天小思 AI：[https://t.tal.com/Ed7Vcn](https://t.tal.com/Ed7Vcn)
 - 第 7 天核心课程与精准学：[https://t.tal.com/HmuoNt](https://t.tal.com/HmuoNt)
@@ -156,5 +153,4 @@ order: 5
 - 第 13 天金牌领学：[https://t.tal.com/GQMDWQ](https://t.tal.com/GQMDWQ)
 - 第 13 天计划广场：[https://t.tal.com/AlQpTm](https://t.tal.com/AlQpTm)
 - 第 14 天设置功能视频：[https://t.tal.com/xZ2StR](https://t.tal.com/xZ2StR)
-- 第 14 天体验问卷：[https://www.wjx.cn/vm/OlfGQbn.aspx](https://www.wjx.cn/vm/OlfGQbn.aspx)
 - 绘本查询链接：[https://operation.51wanxue.com/picturebook-m/#/bookshop?appCode=29948064-7C58-455F-AD95-ED280184CAE](https://operation.51wanxue.com/picturebook-m/#/bookshop?appCode=29948064-7C58-455F-AD95-ED280184CAE)
