@@ -8,8 +8,6 @@ permalink: /
 
 ## 推荐入口
 
-- [学而思学习机使用指南]({{ '/notes/xueersi-learning-machine-14-day-summary/' | relative_url }})：先看 14 天伴学的完整整理版。
-- [14 天伴学视频整理目录]({{ '/notes/xueersi-learning-machine-14-day-transcript/' | relative_url }})：按天查看学习机讲解，但不在首页平铺展开。
 - [文档页]({{ '/docs/' | relative_url }})：从一个页面浏览主要公开内容。
 - [全部笔记]({{ '/notes/' | relative_url }})：按主题查看已经公开的文章。
 - [项目页]({{ '/projects/' | relative_url }})：查看对外展示的项目入口。
