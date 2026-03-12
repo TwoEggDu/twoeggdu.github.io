@@ -45,7 +45,9 @@ order: 12
 - [友好型学习环境](#friendly-learning-environment)
 - [恶劣型学习环境](#wicked-learning-environment)
 
-### 1. 友好型学习环境 {:#friendly-learning-environment}
+<a id="friendly-learning-environment"></a>
+
+### 1. 友好型学习环境
 
 特点是模式重复、规则稳定、反馈精准。
 
@@ -58,7 +60,9 @@ order: 12
 
 在这类环境里，刻意练习和长期重复训练通常有效。
 
-### 2. 恶劣型学习环境 {:#wicked-learning-environment}
+<a id="wicked-learning-environment"></a>
+
+### 2. 恶劣型学习环境
 
 特点是复杂、多变、不确定性高，很多时候没有标准答案，反馈也不及时。
 
