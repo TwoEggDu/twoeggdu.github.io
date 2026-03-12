@@ -42,7 +42,10 @@ order: 12
 
 这本书最关键的区分，是把学习环境分成两类。
 
-### 1. 友好型学习环境
+- [友好型学习环境](#friendly-learning-environment)
+- [恶劣型学习环境](#wicked-learning-environment)
+
+### 1. 友好型学习环境 {:#friendly-learning-environment}
 
 特点是模式重复、规则稳定、反馈精准。
 
@@ -55,7 +58,7 @@ order: 12
 
 在这类环境里，刻意练习和长期重复训练通常有效。
 
-### 2. 恶劣型学习环境
+### 2. 恶劣型学习环境 {:#wicked-learning-environment}
 
 特点是复杂、多变、不确定性高，很多时候没有标准答案，反馈也不及时。
 
@@ -141,3 +144,8 @@ order: 12
 ## 九、一句话总结
 
 《成长的边界》真正要反驳的，不是努力本身，而是“越早专业化越好”的单一路径想象。对大多数人来说，先探索、再聚焦，并在复杂现实中持续发展解决问题的能力，才是更稳、更远的成长方式。
+
+## 延伸阅读
+
+- [友好型学习环境：哪些事最适合刻意练习]({{ '/notes/friendly-learning-environment/' | relative_url }})
+- [恶劣型学习环境：为什么复杂现实不能只靠刷题]({{ '/notes/wicked-learning-environment/' | relative_url }})
