@@ -12,7 +12,6 @@ permalink: /docs/
 ## 快速入口
 
 - [首页]({{ '/' | relative_url }})：查看站点总览
-- [编辑协作]({{ '/editor/' | relative_url }})：查看公开写作流程和协作边界
 - [学而思学习机使用指南]({{ '/notes/xueersi-learning-machine-14-day-summary/' | relative_url }})：查看 14 天伴学的完整整理版
 - [14 天伴学视频整理目录]({{ '/notes/xueersi-learning-machine-14-day-transcript/' | relative_url }})：按天查看学习机讲解
 - [全部笔记]({{ '/notes/' | relative_url }})：按分类浏览全部公开笔记

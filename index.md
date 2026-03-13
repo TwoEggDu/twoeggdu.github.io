@@ -46,7 +46,6 @@ permalink: /
       <li>如果你是长期读者，可以直接进入全部笔记。</li>
     </ul>
 
-    <a class="home-inline-link" href="{{ '/editor/' | relative_url }}">查看编辑协作页</a>
   </aside>
 </section>
 
