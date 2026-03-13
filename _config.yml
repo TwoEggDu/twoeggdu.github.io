@@ -8,6 +8,11 @@ favicon: /assets/images/favicon.svg
 theme: minima
 markdown: kramdown
 
+collections:
+  notes:
+    output: true
+    permalink: /notes/:name/
+
 header_pages:
   - docs.md
   - editor.md
