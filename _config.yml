@@ -4,6 +4,7 @@ lang: zh-CN
 timezone: Asia/Shanghai
 url: https://twoeggdu.github.io
 baseurl: ""
+favicon: /assets/images/favicon.svg
 theme: minima
 markdown: kramdown
 
