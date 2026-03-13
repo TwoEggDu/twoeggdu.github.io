@@ -9,16 +9,5 @@ markdown: kramdown
 
 header_pages:
   - docs.md
+  - editor.md
   - notes.md
-
-collections:
-  notes:
-    output: true
-    permalink: /notes/:name/
-
-defaults:
-  - scope:
-      path: ""
-      type: notes
-    values:
-      layout: page

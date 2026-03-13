@@ -8,6 +8,8 @@ permalink: /
 
 ## 推荐入口
 
+- [从这里开始：为什么我要写《牵着蜗牛去长大》]({{ '/notes/why-i-write-qian-zhe-woniu-qu-changda/' | relative_url }})：先看这篇发刊文，再进入后续文章。
+- [编辑协作]({{ '/editor/' | relative_url }})：给公开编辑或长期协作者看的说明页。
 - [文档页]({{ '/docs/' | relative_url }})：从一个页面浏览主要公开内容。
 - [全部笔记]({{ '/notes/' | relative_url }})：按主题查看已经公开的文章。
 

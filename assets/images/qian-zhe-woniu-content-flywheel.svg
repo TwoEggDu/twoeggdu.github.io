@@ -1,0 +1,132 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="90" x2="1440" y2="930" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBF7F2"/>
+      <stop offset="1" stop-color="#FFFDF9"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="470" y1="286" x2="1130" y2="714" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDFA"/>
+      <stop offset="1" stop-color="#FFF8F1"/>
+    </linearGradient>
+    <linearGradient id="warmCard" x1="110" y1="442" x2="410" y2="574" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF9"/>
+      <stop offset="1" stop-color="#FFF3E7"/>
+    </linearGradient>
+    <linearGradient id="coolCard" x1="1190" y1="442" x2="1490" y2="574" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCFEFB"/>
+      <stop offset="1" stop-color="#EEF6E9"/>
+    </linearGradient>
+    <linearGradient id="stepWarm" x1="528" y1="430" x2="768" y2="676" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFF8F0"/>
+    </linearGradient>
+    <linearGradient id="stepCool" x1="832" y1="430" x2="1072" y2="676" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F7FBF4"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1600" height="1000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#B76A35" flood-opacity="0.09"/>
+    </filter>
+    <filter id="softShadow" x="0" y="0" width="1600" height="1000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#B76A35" flood-opacity="0.07"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10L2.6 5L0 0Z" fill="#D06F3A"/>
+    </marker>
+    <style>
+      .eyebrow { font: 700 16px 'Microsoft YaHei UI','PingFang SC','Noto Sans SC',sans-serif; fill: #C66B37; letter-spacing: 3px; text-anchor: middle; }
+      .title { font: 700 52px 'Microsoft YaHei UI','PingFang SC','Noto Sans SC',sans-serif; fill: #102A43; text-anchor: middle; }
+      .subtitle { font: 400 24px 'Microsoft YaHei UI','PingFang SC','Noto Sans SC',sans-serif; fill: #667480; text-anchor: middle; }
+      .tagWarm { font: 700 15px 'Microsoft YaHei UI','PingFang SC','Noto Sans SC',sans-serif; fill: #C66B37; text-anchor: middle; letter-spacing: 1px; }
+      .tagCool { font: 700 15px 'Microsoft YaHei UI','PingFang SC','Noto Sans SC',sans-serif; fill: #6F8E5E; text-anchor: middle; letter-spacing: 1px; }
+      .sideTitle { font: 700 30px 'Microsoft YaHei UI','PingFang SC','Noto Sans SC',sans-serif; fill: #173049; text-anchor: middle; }
+      .sideSub { font: 400 18px 'Microsoft YaHei UI','PingFang SC','Noto Sans SC',sans-serif; fill: #5F6C75; text-anchor: middle; }
+      .panelTitle { font: 700 40px 'Microsoft YaHei UI','PingFang SC','Noto Sans SC',sans-serif; fill: #102A43; text-anchor: middle; }
+      .panelLead { font: 500 22px 'Microsoft YaHei UI','PingFang SC','Noto Sans SC',sans-serif; fill: #566470; text-anchor: middle; }
+      .panelText { font: 400 20px 'Microsoft YaHei UI','PingFang SC','Noto Sans SC',sans-serif; fill: #61707A; text-anchor: middle; }
+      .stepTitle { font: 700 22px 'Microsoft YaHei UI','PingFang SC','Noto Sans SC',sans-serif; fill: #173049; text-anchor: middle; }
+      .stepSub { font: 400 17px 'Microsoft YaHei UI','PingFang SC','Noto Sans SC',sans-serif; fill: #63707A; text-anchor: middle; }
+      .chipNum { font: 700 17px 'Microsoft YaHei UI','PingFang SC','Noto Sans SC',sans-serif; fill: #FFFFFF; text-anchor: middle; }
+      .note { font: 500 18px 'Microsoft YaHei UI','PingFang SC','Noto Sans SC',sans-serif; fill: #6E7A82; text-anchor: middle; }
+      .connector { stroke: #D06F3A; stroke-width: 4; stroke-linecap: round; fill: none; marker-end: url(#arrow); }
+      .loop { stroke: #D06F3A; stroke-width: 3.2; stroke-linecap: round; fill: none; marker-end: url(#arrow); }
+      .panelGuide { stroke: #E8DDD2; stroke-width: 1.4; fill: none; }
+      .axis { stroke: #F0E4D7; stroke-width: 1.2; fill: none; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1000" rx="36" fill="url(#bg)"/>
+  <path class="axis" d="M800 228V740"/>
+
+  <text x="800" y="74" class="eyebrow">INPUT · FLYWHEEL · OUTPUT</text>
+  <text x="800" y="144" class="title">《牵着蜗牛去长大》内容飞轮</text>
+  <text x="800" y="194" class="subtitle">生活输入进入中间的沉淀过程，最后被整理成可复用的内容输出</text>
+
+  <g>
+    <rect x="214" y="402" width="92" height="34" rx="17" fill="#FFF1E1" stroke="#E6BA84" stroke-width="1.5"/>
+    <text x="260" y="425" class="tagWarm">输入</text>
+    <g filter="url(#softShadow)">
+      <rect x="110" y="442" width="300" height="132" rx="30" fill="url(#warmCard)" stroke="#E0B07A" stroke-width="2"/>
+    </g>
+    <text x="260" y="514" class="sideTitle">1 生活输入</text>
+    <text x="260" y="556" class="sideSub">片段 / 冲突 / 念头 / 问题</text>
+  </g>
+
+  <g>
+    <rect x="1294" y="402" width="92" height="34" rx="17" fill="#EEF6E7" stroke="#C2D3B7" stroke-width="1.5"/>
+    <text x="1340" y="425" class="tagCool">输出</text>
+    <g filter="url(#softShadow)">
+      <rect x="1190" y="442" width="300" height="132" rx="30" fill="url(#coolCard)" stroke="#B8CDAA" stroke-width="2"/>
+    </g>
+    <text x="1340" y="514" class="sideTitle">6 内容输出</text>
+    <text x="1340" y="556" class="sideSub">文章 / 专题 / 方法 / 观点</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="470" y="286" width="660" height="428" rx="42" fill="url(#panel)" stroke="#F0E2D4" stroke-width="1.5"/>
+  </g>
+  <path class="panelGuide" d="M560 410H1040"/>
+  <path class="panelGuide" d="M800 430V676"/>
+  <path class="panelGuide" d="M560 553H1040"/>
+  <text x="800" y="364" class="panelTitle">飞轮内部</text>
+  <text x="800" y="406" class="panelLead">2 记录 → 3 拆解 → 4 支撑 → 5 试验</text>
+
+  <g filter="url(#softShadow)">
+    <rect x="528" y="430" width="240" height="108" rx="24" fill="url(#stepWarm)" stroke="#E7D9CB" stroke-width="1.5"/>
+    <rect x="832" y="430" width="240" height="108" rx="24" fill="url(#stepCool)" stroke="#E7D9CB" stroke-width="1.5"/>
+    <rect x="832" y="568" width="240" height="108" rx="24" fill="url(#stepCool)" stroke="#E7D9CB" stroke-width="1.5"/>
+    <rect x="528" y="568" width="240" height="108" rx="24" fill="url(#stepWarm)" stroke="#E7D9CB" stroke-width="1.5"/>
+  </g>
+
+  <circle cx="648" cy="460" r="18" fill="#D06F3A"/>
+  <text x="648" y="466" class="chipNum">2</text>
+  <text x="648" y="498" class="stepTitle">快速记录</text>
+  <text x="648" y="528" class="stepSub">先记下事件、感受与触发点</text>
+
+  <circle cx="952" cy="460" r="18" fill="#D06F3A"/>
+  <text x="952" y="466" class="chipNum">3</text>
+  <text x="952" y="498" class="stepTitle">问题拆解</text>
+  <text x="952" y="528" class="stepSub">表层原因 / 深层原因</text>
+
+  <circle cx="952" cy="598" r="18" fill="#D06F3A"/>
+  <text x="952" y="604" class="chipNum">4</text>
+  <text x="952" y="636" class="stepTitle">理论支撑</text>
+  <text x="952" y="666" class="stepSub">书籍 / Paper / 他人经验</text>
+
+  <circle cx="648" cy="598" r="18" fill="#D06F3A"/>
+  <text x="648" y="604" class="chipNum">5</text>
+  <text x="648" y="636" class="stepTitle">做法与试验</text>
+  <text x="648" y="666" class="stepSub">这次怎么做 / 下次怎么改</text>
+
+  <path class="loop" d="M770 484H820"/>
+  <path class="loop" d="M954 540V558"/>
+  <path class="loop" d="M830 622H780"/>
+  <path class="loop" d="M646 558V540"/>
+
+  <text x="800" y="704" class="panelText">把零散经验，慢慢磨成稳定的判断、方法与表达</text>
+
+  <path class="connector" d="M410 508H470"/>
+  <path class="connector" d="M1130 508H1190"/>
+
+  <text x="800" y="930" class="note">这不是回到起点的闭环，而是一条把输入真正推向输出的沉淀路径。</text>
+</svg>
