@@ -13,6 +13,13 @@ collections:
     output: true
     permalink: /notes/:name/
 
+defaults:
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: page
+
 header_pages:
   - docs.md
   - notes.md
